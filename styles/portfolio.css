@@ -101,10 +101,10 @@ main {
 
 
 .about {
-    padding: 130px;
+    padding: 150px;
     border-radius: 10px;
     background: #FFF8F3;
-    margin: 130px;
+    margin: 100px 0px 100px 0px ;
 }
 
 
@@ -120,10 +120,27 @@ main {
     text-align: center;
     font-size: 18px;
 }
+
 .about-info-container {
     display: flex;
     justify-content: space-around;
 }
+
 .about-info {
     text-align: center;
+}
+
+.info-title {
+    color: #757575;
+}
+
+.info-description {
+    color: #474747; 
+}
+
+#what-i-do-description {
+    padding: 30px 150px;
+}
+.skill-container {
+    display: flex;
 }
