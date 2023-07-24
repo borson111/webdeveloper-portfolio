@@ -166,9 +166,38 @@ main section {
     background: #FFF;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
+
 .skill-description {
     color: #757575;
 }
-.resume-container{
+
+.resume-container {
     display: flex;
+    gap: 50px;
+}
+
+.resume-coloum-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.resume-item-institute,
+.resume-item-description {
+    color: #757575;
+}
+
+.resume-item-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.resume-item-institute {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.download-cv {
+    text-align: center;
+    margin-top: 50px;
 }
